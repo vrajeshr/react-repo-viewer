@@ -1,6 +1,8 @@
+import Repo from "../Repo/Repo";
+
 const Repos = (props) => {
   return props.userRepos.map((repo) => {
-    return <div>{repo.name}</div>;
+    return <Repo repo={repo} />;
   });
 };
 

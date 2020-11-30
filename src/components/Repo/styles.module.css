@@ -1,0 +1,14 @@
+.Repo {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000000;
+}
+
+.avatar {
+    flex: 1
+}
+
+.descriptions {
+    flex: 2
+}
